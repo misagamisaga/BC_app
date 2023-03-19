@@ -23,7 +23,7 @@ import time
 if_run = False
 
 time_now = time.asctime()
-st.image(r'images\treeandawn_title.jpg')
+st.image(r'treeandawn_title.jpg')
 st.title(' 🩺 Data Check')
 st.text("""
 Have data but don't know if there is a connection?
