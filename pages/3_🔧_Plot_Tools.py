@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 
-st.image(r'images\title_cyber.jpg')
+st.image(r'title_cyber.jpg')
 st.title(' 🔧 Plot Tools')
 st.text('''
 Need to draw a picture but only have data? 
