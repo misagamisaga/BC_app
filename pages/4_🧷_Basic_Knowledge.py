@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.image(r'images\rowrowchair_title.jpg')
+st.image(r'rowrowchair_title.jpg')
 st.title(' 🧷 Basic Knowledge')
 st.text('''
 Think the site works well and want to know how it works? 
