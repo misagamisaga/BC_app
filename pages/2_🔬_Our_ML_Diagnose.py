@@ -28,7 +28,7 @@
 # if_run = False
 
 # time_now = time.asctime()
-# st.image(r'images\road_title.jpg')
+# st.image(r'road_title.jpg')
 # st.title(' 🔬 Our ML Diagnose')
 # st.text("""
 # Want to get a better outcome as a clinician? 
