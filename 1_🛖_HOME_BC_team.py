@@ -4,7 +4,7 @@ import os
 
 
 # title
-st.image(r'images\title_moun.jpg')
+st.image(r'title_moun.jpg')
 st.title('🎉 Welcome to Bio-Clic Lab!')
 
 
@@ -22,7 +22,7 @@ with col1:
     ''')
 
 with col2:
-    st.image(r'images\lightitem.jpg')
+    st.image(r'lightitem.jpg')
 
 
 st.header('Our Work')
