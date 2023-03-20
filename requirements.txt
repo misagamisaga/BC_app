@@ -7,6 +7,5 @@ numpy
 pandas
 xgboost
 lightgbm
-
-
-
+pyradiomics
+SimpleITK
