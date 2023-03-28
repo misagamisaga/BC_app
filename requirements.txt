@@ -5,4 +5,5 @@ scikit-plot==0.3.7
 seaborn
 pandas
 xgboost
-pyradiomics
+pyradiomics==3.0.1
+numpy
