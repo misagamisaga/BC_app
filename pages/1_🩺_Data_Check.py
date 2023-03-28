@@ -133,7 +133,7 @@ if if_run:
         "GaussianNB()",
         "SVC(probability=True)",
         # "LGBMClassifier()",
-        "XGBClassifier(max_depth=5, learning_rate=0.1, objective='binary:logistic', nthread=-1, scale_pos_weight = len(y[y == 0])/len(y[y == 1])))",
+        "XGBClassifier(max_depth=5, learning_rate=0.1, objective='binary:logistic', nthread=-1, scale_pos_weight = len(y[y == 0])/len(y[y == 1]))",
         "KNeighborsClassifier(n_neighbors=5)"
     ]
 
