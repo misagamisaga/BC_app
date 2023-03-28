@@ -67,7 +67,9 @@ with st.expander('⇲'):
 
 st.header('FAQs')
 with st.expander('⇲'):
-    st.write('')
+    st.write('''
+    Any responses received will be displayed here. We are looking forward to your use and feedback😊
+    ''')
 
 st.header('References')
 with st.expander('⇲'):
@@ -77,4 +79,5 @@ with st.expander('⇲'):
     - Numpy: [Numpy: The fundamental package for scientific computing with Python](https://numpy.org/)
     - Scipy: [Scipy: Fundamental algorithms for scientific computing in Python](https://scipy.org/)
     - Streamlit: [Streamlit: The fastest way to build and share data apps](https://streamlit.io/)
+    - Wikipedia: [Wikipedia: The free encyclopedia that anyone can edit](https://en.wikipedia.org/wiki/Machine_learning)
     ''')
