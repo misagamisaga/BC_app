@@ -3,7 +3,6 @@ scikit-learn
 Pillow==9.4.0
 scikit-plot==0.3.7
 seaborn
-numpy
 pandas
 xgboost
 pyradiomics
