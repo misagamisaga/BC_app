@@ -27,10 +27,9 @@ sns.set()
 # --- Box Plot ---
 st.header('Box Plot')
 if_plot1 = False
-upload_file1 = st.file_uploader("", accept_multiple_files=False, key=1)
+upload_file1 = st.file_uploader(" ", accept_multiple_files=False, label_visibility="collapsed", key=1)
 if upload_file1 is None:
     st.write('## 📤 Upload your `.csv` file above')
-    st.markdown('---')
 else:
     data1 = get_data(upload_file1)
     edited_df1 = st.experimental_data_editor(data1, key=11)
@@ -47,10 +46,9 @@ st.markdown('---')
 # --- Line Plot ---
 st.header('Line Plot')
 if_plot2 = False
-upload_file2 = st.file_uploader("", accept_multiple_files=False, key=2)
+upload_file2 = st.file_uploader(" ", accept_multiple_files=False, label_visibility="collapsed", key=2)
 if upload_file2 is None:
     st.write('## 📤 Upload your `.csv` file above')
-    st.markdown('---')
 else:
     data2 = get_data(upload_file2)
     edited_df2 = st.experimental_data_editor(data2, key=21)
@@ -75,10 +73,9 @@ st.markdown('---')
 # --- Corr Heatmap ---
 st.header('Corr Heatmap')
 if_plot3 = False
-upload_file3 = st.file_uploader("", accept_multiple_files=False, key=3)
+upload_file3 = st.file_uploader(" ", accept_multiple_files=False, label_visibility="collapsed", key=3)
 if upload_file3 is None:
     st.write('## 📤 Upload your `.csv` file above')
-    st.markdown('---')
 else:
     data3 = get_data(upload_file3)
     edited_df3 = st.experimental_data_editor(data3, key=31)
@@ -103,10 +100,9 @@ st.markdown('---')
 # --- Cluster Map ---
 st.header('Cluster Plot')
 if_plot4 = False
-upload_file4 = st.file_uploader("", accept_multiple_files=False, key=4)
+upload_file4 = st.file_uploader(" ", accept_multiple_files=False, label_visibility="collapsed", key=4)
 if upload_file4 is None:
     st.write('## 📤 Upload your `.csv` file above')
-    st.markdown('---')
 else:
     data4 = get_data(upload_file4)
     edited_df4 = st.experimental_data_editor(data4, key=41)
