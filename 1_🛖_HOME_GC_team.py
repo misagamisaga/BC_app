@@ -30,19 +30,19 @@ st.header('Our Work')
 tab1, tab2, tab3, tab4 = st.tabs(["🩺 Data Check", "🔬 Our ML Diagnose", "🔧 Plot Tools", "🧷 Basic Knowledge"])
 
 with tab1:
-    st.subheader("🩺 Data Check")
-    st.text("""
-    Have data but don't know if there is a connection?
-    Have a guess but don't know if it's worth doing?
-    Upload your data here and let the machine learning models answer your questions!
-    """)
-
-with tab2:
     st.subheader("🔬 Our ML Diagnose")
     st.text("""
     Want to get a better outcome as a clinician? 
     Have patient test results but are still hesitant to confirm the diagnosis? 
     Enter data into our website and let scientific research help you make precise decisions!
+    """)
+
+with tab2:
+    st.subheader("🩺 Data Check")
+    st.text("""
+    Have data but don't know if there is a connection?
+    Have a guess but don't know if it's worth doing?
+    Upload your data here and let the machine learning models answer your questions!
     """)
 
 with tab3:
