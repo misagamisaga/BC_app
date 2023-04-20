@@ -14,9 +14,8 @@ col1, col2 = st.columns([2,1])
 with col1:
     st.write('''
     Gang Chen Lab is a cutting-edge research laboratory in Whenzhou Medical University. 
-    We have long focused on liver and gallbladder science. Discovering the mechanisms behind diseases. Providing best treatment for patients.
     The research areas of the mentor team members are related to basic research in hepatobiliary surgery, gastrointestinal malignancies, 
-    transplantation immunology, experimental surgery, experimental diagnostics, treatment of metastatic colorectal cancer, and the role of environmental and genetic interactions on tumorigenesis and development. He has also worked in the field of basic and translational medicine for liver cancer. He has made a series of research achievements in the field of basic and translational medicine of liver cancer: 1. Basic research 1. In basic research, we have demonstrated the important role of SUL F2-TGF β 1-SMAD-POSTN signaling pathway in the process of hepatocellular carcinoma angiogenesis, and We have clarified the molecular mechanism of the nesting of hepatocellular carcinoma neovascularization by endothelial progenitor cells of bone marrow origin, and clarified the molecular mechanism of the long-chain chain angiogenesis.
+    transplantation immunology, experimental surgery, experimental diagnostics, treatment of metastatic colorectal cancer, and the role of environmental and genetic interactions on tumorigenesis and development. He has also worked in the field of basic and translational medicine for liver cancer. 
     Gang Chen Lab is one of the leading liver and gallbladder Lab in the world, and strives to make significant contributions to science and society.
     ''')
 
